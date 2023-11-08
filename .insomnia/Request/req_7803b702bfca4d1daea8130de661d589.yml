@@ -1,0 +1,21 @@
+_id: req_7803b702bfca4d1daea8130de661d589
+type: Request
+parentId: fld_068d1faa94b24187ad73139875a2cbda
+modified: 1661440154003
+created: 1661426512393
+url: http://slnxdock02/apigw/v1/ms-jira/jira/carga-hora-feriados?fecha=SYSDATE
+name: Carga Horas Feriados
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1661426512393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

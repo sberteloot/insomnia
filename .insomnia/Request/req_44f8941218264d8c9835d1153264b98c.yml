@@ -1,0 +1,21 @@
+_id: req_44f8941218264d8c9835d1153264b98c
+type: Request
+parentId: fld_9b5e3f0d13744a73aa39c842ba2c0a04
+modified: 1688562445445
+created: 1688562377174
+url: http://slnxdock02/apigw/v1/ms-parametros/parametro/ListadoParametrosPorIdSistema/143
+name: Listado por Id Sistema
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1688562377174
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

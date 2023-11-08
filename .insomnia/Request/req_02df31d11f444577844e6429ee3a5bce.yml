@@ -1,0 +1,21 @@
+_id: req_02df31d11f444577844e6429ee3a5bce
+type: Request
+parentId: fld_4a8cd34c7d184f1bb210c3daf061453e
+modified: 1699369933436
+created: 1678299953697
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-usuarios-externos/user/a20231107@gmail.com/true
+name: Get Usuario
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1678298978489
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_eb16efda1da44d148a862af4ad21e721
+type: Request
+parentId: fld_4a8cd34c7d184f1bb210c3daf061453e
+modified: 1693591919588
+created: 1681312026450
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-usuarios-externos/roles/asignar
+name: Asignar Roles
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "usuario": {
+        "uid": "usuarioprueba@gmail.com"   
+      },
+      "empresa": {
+        "nombre": "30710501587"
+      },
+      "roles": [
+        "cliente_ps_admin"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678298978464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

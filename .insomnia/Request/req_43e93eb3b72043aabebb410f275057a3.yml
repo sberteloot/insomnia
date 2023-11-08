@@ -1,0 +1,21 @@
+_id: req_43e93eb3b72043aabebb410f275057a3
+type: Request
+parentId: fld_ab7a4530cdf34afda49cf77ecaefb8b1
+modified: 1689084116504
+created: 1689084063687
+url: http://slnxdock02/apigw/v1/ms-departamentos/departamento/obtener-listado-departamentos
+name: Listado Deptos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1689084063687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

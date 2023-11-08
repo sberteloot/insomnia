@@ -1,0 +1,40 @@
+_id: req_966fa67435684a659a8b1b255470d64d
+type: Request
+parentId: fld_4195218489b94b0f9d0570ab12cccf86
+modified: 1677966129878
+created: 1671560673916
+url: http://apps18/MaestrosGeneralesWs/ArchivoService.svc/subirArchivos
+name: Subir Fotos
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d4e120c52074470f807440c26ed2e87c
+      name: IDSISTEMA
+      value: "31"
+      description: ""
+    - id: pair_a8d38e88d1cf44bea7fdfac9d51fad21
+      name: CODIGO
+      value: "1"
+      description: ""
+    - id: pair_ac734aa91cbc4b6296521157489607bc
+      name: FOTO6.jpg
+      value: ""
+      description: ""
+      type: file
+      multiline: false
+      fileName: C:\Users\sberteloot\Pictures\Foto2.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1671560673916
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

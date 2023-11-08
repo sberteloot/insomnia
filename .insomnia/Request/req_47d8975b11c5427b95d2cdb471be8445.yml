@@ -1,0 +1,23 @@
+_id: req_47d8975b11c5427b95d2cdb471be8445
+type: Request
+parentId: fld_37cf48a673a844779a57c92052343d60
+modified: 1696412416708
+created: 1696412328226
+url: http://slnxkub01t/apigw/v1/dev/ms-gdm-adapter/gdm/plu/getOrigenes
+name: Get Origenes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695752170755
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

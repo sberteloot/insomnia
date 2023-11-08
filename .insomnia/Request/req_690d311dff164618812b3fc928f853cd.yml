@@ -1,0 +1,29 @@
+_id: req_690d311dff164618812b3fc928f853cd
+type: Request
+parentId: fld_40007511217346f0820e9dea3ee0c9b5
+modified: 1670935281166
+created: 1664274363662
+url: http://slnxkub01t/apigw/v1/dev/ms-vacaciones/vacaciones/impresion-por-fechas
+name: Impresión por Fechas
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4d70587e5af04927952c43aa8ca59926
+    name: fecha8Desde
+    value: "20220901"
+    description: ""
+  - id: pair_134273c63cd842199ac6bdafcea2c52c
+    name: fecha8Hasta
+    value: "20220903"
+    description: ""
+authentication: {}
+metaSortKey: -1664976381657
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

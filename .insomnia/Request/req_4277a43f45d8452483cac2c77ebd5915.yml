@@ -1,0 +1,35 @@
+_id: req_4277a43f45d8452483cac2c77ebd5915
+type: Request
+parentId: fld_4a8cd34c7d184f1bb210c3daf061453e
+modified: 1681391743083
+created: 1679074306503
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-usuarios-externos/usuario
+name: Alta Usuario
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uid": "lautaro@coto.com.ar",
+      "mail": "lautaro@coto.com.ar",
+      "nombre": "lautaro",
+      "apellido": "lautaro",
+      "displayName": "Prueba2 Sergio3",
+      "enabled": true,
+      "mailVerificado": false,
+      "roles": [ ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678298978439
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_208e93eaf58b4b67b563ce5aa1261f6b
+type: Request
+parentId: fld_2bb179341c634163b291d4411c32b867
+modified: 1674759610744
+created: 1674757921378
+url: http://slnxkub01t/apigw/v1/dev/ms-gestor-bpm/bpm/gestor-bpm/errorStorage/getErrorStorage/13742
+name: Get Error Storage
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672413375133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

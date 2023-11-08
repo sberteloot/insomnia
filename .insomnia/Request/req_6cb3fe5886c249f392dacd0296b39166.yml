@@ -1,0 +1,57 @@
+_id: req_6cb3fe5886c249f392dacd0296b39166
+type: Request
+parentId: fld_b1c1a142f6794faa9e4a2452ef2b1d17
+modified: 1686156528849
+created: 1686137382597
+url: http://desa1web17/maestrosgeneralesws/service.svc/enviarEmail
+name: Enviar Mail con Adjuntos - Binario
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"CC":"",
+    	"MyProperty":0,
+    	"archivoAdjuntos":[{
+    		"contenidoBinario":[81,
+    		109,
+    		70,
+    		122,
+    		90,
+    		83,
+    		65,
+    		50,
+    		78,
+    		67,
+    		66,
+    		84,
+    		100,
+    		72,
+    		74,
+    		108,
+    		89,
+    		87,
+    		48,
+    		61],
+    		"nombre":"ArchivoPdf",
+    		"rutaUnc":""
+    	}],
+    	"asunto":"Prueba adjunto",
+    	"cuerpo":"Contenido de la cadena",
+    	"destinatario":"sberteloot@coto.com.ar",
+    	"remitente":"prueba@redcoto.com.ar"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686139853573
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

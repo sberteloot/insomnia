@@ -1,0 +1,26 @@
+_id: req_0138ca0c3af54dceaa86f12215b6174b
+type: Request
+parentId: fld_13ad1d600f2448289e44f84c0254819c
+modified: 1683123523665
+created: 1683122806028
+url: http://slnxdock02/apigw/v1/ms-sucursales/sucursal/get-sucursales
+name: Get-Sucursales
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"IdsSuc":
+    [],"IdFormato":0,"SucVenta":true,"IdOrigen":"GDM","Retornos":{"RetornarFormato":false,"RetornarTodo":false}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683122806029
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

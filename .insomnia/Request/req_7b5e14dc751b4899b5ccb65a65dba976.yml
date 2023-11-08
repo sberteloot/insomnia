@@ -1,0 +1,30 @@
+_id: req_7b5e14dc751b4899b5ccb65a65dba976
+type: Request
+parentId: fld_95cffb02e7ab4eb38f7400e9683f7e7b
+modified: 1695901071028
+created: 1693310110337
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-portal-seguridad/cipher/encrypt
+name: Encrypt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "text" : "ewogICAgImlkU2lzdGVtYSI6IDMsCiAgICAiaWRNb2R1bG8iOjAsCiAgICAiaWRTdWJtb2R1bG8iOiAwCn0="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1686174530433
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_723255b167a6450b813d3f8fbcd6ce12
+type: Request
+parentId: fld_9b5e3f0d13744a73aa39c842ba2c0a04
+modified: 1688562026371
+created: 1661438082358
+url: http://slnxdock02/apigw/v1/ms-parametros/parametro/por-sistema-lista/143
+name: Por Sistema Lista
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+      "BPM-CODIGO",
+    "MESES_HAB_SOLICITUD"
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e0d4246dfdc543bbbf5930b339e9e469
+authentication: {}
+metaSortKey: -1661438082358
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

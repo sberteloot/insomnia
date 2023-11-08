@@ -1,0 +1,27 @@
+_id: req_1d596307bc43468fa3b4241008854d1b
+type: Request
+parentId: fld_7893a97d9bd04855857ff6be723ae184
+modified: 1694601078570
+created: 1694601041861
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-portal-componentes/componente/habilitar/8485a7ea-eba8-40da-90ea-6845165fb978
+name: Componente Habilitar
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694600434652.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_7b1f755f868c4c179537f7788abafc0f
+type: Request
+parentId: fld_95cffb02e7ab4eb38f7400e9683f7e7b
+modified: 1695901104668
+created: 1686174530333
+url: http://slnxkub01t.redcoto.com.ar:80/apigw/v1/dev/ms-portal-seguridad/cipher/decrypt
+name: Decrypt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "text" : "i4XzV6vM1dgkapXnQVHE4JXlgCJNkFdcjVzb57ukrSjH0e6b0O4mQ9Q590ADEJvjuqpMVAgxwM7Yf5F72kfXsw%3D%3D"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686174530333
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

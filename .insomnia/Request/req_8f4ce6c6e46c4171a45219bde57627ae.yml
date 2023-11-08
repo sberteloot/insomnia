@@ -1,0 +1,38 @@
+_id: req_8f4ce6c6e46c4171a45219bde57627ae
+type: Request
+parentId: fld_4a8cd34c7d184f1bb210c3daf061453e
+modified: 1693241620213
+created: 1693236309703
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-usuarios-externos/roles/desasignar
+name: Desagsinar Roles
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "usuario": {
+        "uid": "sergio.berteloot@coto.com.ar"   
+      },
+      "empresa": {
+        "nombre": "33646460919"
+      },
+      "roles": [
+        "cliente_ps_admin"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1678298978451.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

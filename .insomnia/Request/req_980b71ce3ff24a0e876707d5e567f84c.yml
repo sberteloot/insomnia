@@ -1,0 +1,32 @@
+_id: req_980b71ce3ff24a0e876707d5e567f84c
+type: Request
+parentId: fld_7893a97d9bd04855857ff6be723ae184
+modified: 1695296665947
+created: 1694600373907
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-portal-componentes/componentes
+name: Listar Componentes
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "idSistema": 2,
+      "idModulo": -1,
+      "idSubmodulo": -1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694600373907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

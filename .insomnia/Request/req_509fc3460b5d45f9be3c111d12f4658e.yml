@@ -1,0 +1,37 @@
+_id: req_509fc3460b5d45f9be3c111d12f4658e
+type: Request
+parentId: fld_9cc536e2badc46c7bab347dc1d7726c4
+modified: 1694180683061
+created: 1694080446286
+url: http://slnxkub01t/apigw/v1/dev/ms-plu-departamento-clase-uo/gestion/plugdmuo/agregarRelacionPluGdmUo
+name: Agregar Relación UO/Depto Clase
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "codigo_empresa": 1,
+      "codigo_departamento": 999,
+      "descripcion_departamento": "ALMACEN",
+      "codigo_clase": 1,
+      "descripcion_clase": "ACEITES",
+      "tarea": 1,
+      "uo": 17250000,
+      "usuario_creacion": 93565
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694080446286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

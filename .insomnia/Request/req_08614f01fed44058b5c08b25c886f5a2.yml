@@ -1,0 +1,30 @@
+_id: req_08614f01fed44058b5c08b25c886f5a2
+type: Request
+parentId: fld_5c5a1baa12164802a6ade58b6d3eda3b
+modified: 1692020314570
+created: 1691781891817
+url: http://slnxdock02/apigw/v1/ms-empleados/empleado/por-legajos/gerente
+name: Por Legajos - Gerente
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "Legajos": [
+        "93565","155536"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672406887764
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

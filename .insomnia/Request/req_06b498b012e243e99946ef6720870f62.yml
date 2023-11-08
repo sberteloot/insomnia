@@ -1,0 +1,21 @@
+_id: req_06b498b012e243e99946ef6720870f62
+type: Request
+parentId: fld_068d1faa94b24187ad73139875a2cbda
+modified: 1661440058213
+created: 1661439882988
+url: http://slnxdock02/apigw/v1/ms-jira/jira/carga-hora-ausencias?fecha=20220824
+name: Carga Horas Ausencias
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1661439882988
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

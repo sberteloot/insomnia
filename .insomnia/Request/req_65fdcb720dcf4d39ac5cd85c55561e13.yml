@@ -1,0 +1,31 @@
+_id: req_65fdcb720dcf4d39ac5cd85c55561e13
+type: Request
+parentId: fld_5ca146a8b625458587f2e643fcccab1c
+modified: 1699462061959
+created: 1699461945136
+url: http://localhost:8080/TI_EAR-TI_WS/ServicioUsuarioBeanWS
+name: Login-PDA
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:bean="http://bean.webservice.session.ti.coto.com/"><soapenv:Header/>
+    <soapenv:Body><bean:login><userName>93565</userName><password>1234</password>
+
+    <sucursal>2</sucursal></bean:login></soapenv:Body></soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/soap+xml
+    id: pair_501f796d7c884256b2305db382a38562
+authentication: {}
+metaSortKey: -1697937431814.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

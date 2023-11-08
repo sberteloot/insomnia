@@ -1,0 +1,21 @@
+_id: req_ad26d1411e7e4c88af7857c6d4f1a65a
+type: Request
+parentId: fld_4a8cd34c7d184f1bb210c3daf061453e
+modified: 1682085353995
+created: 1682085338140
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-usuarios-externos/empresa/sergio.berteloot@coto.com.ar
+name: Get Empresas x Uid
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1678298978482.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

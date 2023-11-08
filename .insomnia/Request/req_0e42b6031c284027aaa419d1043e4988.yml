@@ -1,0 +1,31 @@
+_id: req_0e42b6031c284027aaa419d1043e4988
+type: Request
+parentId: fld_b1c1a142f6794faa9e4a2452ef2b1d17
+modified: 1686174455298
+created: 1672856575324
+url: http://apps18/MaestrosGeneralesWs/Service.svc/enviarEmailSinDatosAdjuntosPost
+name: Enviar mail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"asunto" : "Prueba",
+    	"cuerpo" : "Esto es una prueba",
+    	"destinatario" : "alertasprocesosbpm@redcoto.com.ar",
+    	"remitente" : "noreply@redcoto.com.ar"	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686139853523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

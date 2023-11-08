@@ -1,0 +1,56 @@
+_id: req_f075389575184cce8bd3f246f384e091
+type: Request
+parentId: fld_2bb179341c634163b291d4411c32b867
+modified: 1685561982840
+created: 1685368763448
+url: http://slnxkub01t/apigw/v1/ms-gestor-bpm/bpm/gestor-bpm/procesos/AFECT_MERMAS/instancias
+name: Solicitud de Afectacion Mermas
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user": "173553",
+    	"code": "AFECT_MERMAS",
+    	"token": "3GgmAFMw0foVsv/y1Y2FRzbbb0uqz6EENhnSU+u6KFQ=",
+    	"flexibleFields": [
+    		{
+    			"tipoFlexfield": "ENTERO",
+    			"nombre": "ID_SOLICITUD",
+    			"valor": 107,
+    			"serialVersionUID": 6204397249010239216
+    		},
+    		{
+    			"tipoFlexfield": "TEXTO",
+    			"nombre": "SOLICITANTE",
+    			"valor": "173553",
+    			"serialVersionUID": 6204397249010239216
+    		},
+    		{
+    			"tipoFlexfield": "TEXTO",
+    			"nombre": "NOMBRE_Y_APELLIDO_SOLICITANTE",
+    			"valor": "GAZPIO RAMIRO",
+    			"serialVersionUID": 6204397249010239216
+    		},
+    		{
+    			"tipoFlexfield": "ENTERO",
+    			"nombre": "SUCURSAL",
+    			"valor": 2,
+    			"serialVersionUID": 6204397249010239216
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672413375208
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

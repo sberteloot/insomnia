@@ -1,0 +1,64 @@
+_id: req_13f6eb53d96a4faea9ece1776b2e7f2f
+type: Request
+parentId: fld_ccc15f520bce478d925becfc2478ac15
+modified: 1681311720002
+created: 1680804576650
+url: https://redcoto.webhook.office.com/webhookb2/4e25c75c-834f-4313-874b-efe2cd9bec45@bac8253f-d16b-4add-ab33-f62a43fde7f7/IncomingWebhook/e4104ceb859948cca602393b7e410e61/fed80fa0-29aa-464d-b781-ef1251b4948c
+name: Enviar Tarjeta
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-2
+     {
+        "type":"message",
+        "attachments":[
+           {
+              "contentType":"application/vnd.microsoft.card.adaptive",
+              "contentUrl":null,
+              "content":{
+                 "$schema":"http://adaptivecards.io/schemas/adaptive-card.json",
+                 "type":"AdaptiveCard",
+                 "version":"1.2",
+                 "body":[
+    				{
+    					"type": "Image",
+    					"url": "https://www.coto.com.ar/images/logo_coto_footer.png"
+    				},			 
+                    {
+    					"type": "TextBlock",
+    					"text": "Bienvenid@ a este espacio de intercambio entre los líderes"
+                     },
+                    {
+    					"type": "TextBlock",
+    					"text": "**SOLO PARA LIDERES**"
+                     },				 
+                    {
+                     "type": "TextBlock",
+    					"text": "La idea es poder tener un canal de comunicación para nosotros donde poder tratar temas que son de interés en común .
+
+    Además del canal queremos retomar nuestras reuniones de líderes, sin una agenda pre acordada, sino para conocernos, charlar sobre temas en común como la gestión de equipos, temas varios que queramos presentar a la gerencia, etc
+
+
+    En unos días vamos a pasar la fecha de la primera reunión, estaría bueno estar todos presencial dado que mucho no nos conocemos",
+    					"wrap": true
+                     },
+                   
+                 ]					  
+              }
+           }
+        ]
+     }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680804576650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

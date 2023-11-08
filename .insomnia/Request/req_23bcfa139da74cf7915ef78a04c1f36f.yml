@@ -1,0 +1,31 @@
+_id: req_23bcfa139da74cf7915ef78a04c1f36f
+type: Request
+parentId: fld_bae5573cb5c94cfc81a65d27e0b736d1
+modified: 1695663579222
+created: 1673028302145
+url: http://localhost:56960/Service.svc/fnLoginPost
+name: Login Post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"EntUsuarioLogin":{
+    	"id_sistema":"123",
+    	"password":"quemirasbobo",
+    	"usuario":"sberteloot"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1673028302145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

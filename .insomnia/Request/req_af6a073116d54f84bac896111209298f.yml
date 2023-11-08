@@ -1,0 +1,29 @@
+_id: req_af6a073116d54f84bac896111209298f
+type: Request
+parentId: fld_5ca146a8b625458587f2e643fcccab1c
+modified: 1699461936502
+created: 1699459906513
+url: http://localhost:4302/TI_EAR-TI_WS/ServicioUsuarioBeanWS
+name: Login-Angular
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:bean="http://bean.webservice.session.ti.coto.com/"><soapenv:Header/>
+    <soapenv:Body><bean:loginAD><userName>sberteloot</userName><password>Aguanteriverplate465</password></bean:loginAD></soapenv:Body></soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/soap+xml
+    id: pair_501f796d7c884256b2305db382a38562
+authentication: {}
+metaSortKey: -1699459906513
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

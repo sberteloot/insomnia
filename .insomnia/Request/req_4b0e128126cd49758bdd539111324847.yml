@@ -1,0 +1,29 @@
+_id: req_4b0e128126cd49758bdd539111324847
+type: Request
+parentId: fld_5a663f1abbd345e7900883a1762395bd
+modified: 1686568334359
+created: 1686061461594
+url: http://slnxkub01t/apigw/v1/ms-afectacionmerma/solicitud/obtener-listado-mermas
+name: Listado de Mermas (Reporte)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7c30bb05a260435895473ec3ffe34bc4
+    name: Sucursales
+    value: "0"
+    description: ""
+  - id: pair_e92e3451234e4039bceb3724e7285289
+    name: PeriodoYYYYMM
+    value: "202305"
+    description: ""
+authentication: {}
+metaSortKey: -1686061461595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

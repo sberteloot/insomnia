@@ -1,0 +1,36 @@
+_id: req_f5c7fb850bee47619c58ed46694578c6
+type: Request
+parentId: fld_9fe8881531f74dbaa58e958734b62f11
+modified: 1686676584344
+created: 1686072282321
+url: https://awshomo.afip.gov.ar/sr-parametros/webservices/parameterServiceA100
+name: Parametros Padron
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+
+    xmlns:a100="http://a100.soap.ws.server.pucParam.sr/">
+     <soapenv:Header/>
+     <soapenv:Body>
+     <a100:getParameterCollectionByName> <token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhaG9tbywgTz1BRklQLCBDPUFSLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMzY5MzQ1MDIzOSIgdW5pcXVlX2lkPSIzODQ4MTY4MTI5IiBnZW5fdGltZT0iMTY4NjY3NTg3NyIgZXhwX3RpbWU9IjE2ODY3MTkxMzciLz4KICAgIDxvcGVyYXRpb24gdHlwZT0ibG9naW4iIHZhbHVlPSJncmFudGVkIj4KICAgICAgICA8bG9naW4gZW50aXR5PSIzMzY5MzQ1MDIzOSIgc2VydmljZT0id3Nfc3JfcGFkcm9uX2ExMDAiIHVpZD0iU0VSSUFMTlVNQkVSPUNVSVQgMjMzMTA2MDE0ODksIENOPXNlcnZlcmhvbW9sb2dhY2lvbiIgYXV0aG1ldGhvZD0iY21zIiByZWdtZXRob2Q9IjIyIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiBrZXk9IjIzMzEwNjAxNDg5IiByZWx0eXBlPSI0Ii8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cg==</token> <sign>LC2JiEE/BEcpKVjMrPhJRVVGgVYRIonD7dl8/IIwf2CRdfosdtMvd0/AtatfKU0BtUV/urjBB63NCN9oYQRdbgstb8/ZI3CfW0hcq/m3NsYlcazOmS1C0oX4PIuTSiGK9HUWAkwzOh4kPkUEjXBNn5JfHAfcqTkBJGrS7adUkXY=</sign>
+     <cuitRepresentada>23310601489</cuitRepresentada>
+     <collectionName>SUPA.TIPO_EMPRESA_JURIDICA</collectionName>
+     </a100:getParameterCollectionByName>
+     </soapenv:Body>
+    </soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+authentication: {}
+metaSortKey: -1686072282321
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

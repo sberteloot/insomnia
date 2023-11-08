@@ -1,0 +1,26 @@
+_id: req_52897d85066a4b27bf8616b19a97e83f
+type: Request
+parentId: fld_40007511217346f0820e9dea3ee0c9b5
+modified: 1664976447646
+created: 1664801907043
+url: http://slnxkub01t/apigw/v1/jasperserver/rest_v2/reports/ReportesVacacionesGerentes/ReporteVacacionesGerentesEntreFechas.pdf?FechaHasta=20220930&FechaDesde=20220901
+name: Impresión Reporte - Jasper
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: jasperreader
+  password: jasperreader
+metaSortKey: -1664976381607
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

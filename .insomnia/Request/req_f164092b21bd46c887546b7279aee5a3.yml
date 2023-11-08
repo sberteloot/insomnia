@@ -1,0 +1,33 @@
+_id: req_f164092b21bd46c887546b7279aee5a3
+type: Request
+parentId: fld_4a8cd34c7d184f1bb210c3daf061453e
+modified: 1699377314124
+created: 1678298978539
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/dev/ms-usuarios-externos/users
+name: Lista de Usuarios
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "usuarios": [
+        "sergio.berteloot@coto.com.ar",
+    		"gisela.quiroga@coto.com.ar",
+    		"lautaro.bernati@coto.com.ar"
+      ],
+      "incluirRoles": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678298978539
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

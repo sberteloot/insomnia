@@ -1,0 +1,36 @@
+_id: req_60daaa3445c54c80adde3b64c0e500b2
+type: Request
+parentId: fld_2bb179341c634163b291d4411c32b867
+modified: 1675180703838
+created: 1674754781364
+url: http://slnxkub01t/apigw/v1/dev/ms-gestor-bpm/bpm/gestor-bpm/errorStorage/addNewErrorStorage
+name: Grabar Error Storage
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {"codigoProceso":"AFECT_MERMAS",
+
+    "instanciaProceso":"13885",
+
+    "codError":"500",
+
+    "descripcion":"Ocurrió un problema al validar los datos de la acción solicitada. Error: La Tarea que se desea mover no coincide con la correspondiente a la Etapa Actual del Proceso\n,timestamp:1675180024622}",
+
+    "generador":"me-afectacionmerma"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1672413375183
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

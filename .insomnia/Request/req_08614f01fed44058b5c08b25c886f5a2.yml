@@ -1,7 +1,7 @@
 _id: req_08614f01fed44058b5c08b25c886f5a2
 type: Request
 parentId: fld_5c5a1baa12164802a6ade58b6d3eda3b
-modified: 1692020314570
+modified: 1699987090991
 created: 1691781891817
 url: http://slnxdock02/apigw/v1/ms-empleados/empleado/por-legajos/gerente
 name: Por Legajos - Gerente
@@ -9,12 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-      "Legajos": [
-        "93565","155536"
-      ]
-    }
+  text: '{"Legajos":["00082582","00093565","00166103","00168173","00168816","00169324","00063233","00079764","00166295","00030610","00077970","00160642","00165585","00169573","00131322","00114505","00077233","00080307","00075544","00107109","00090940","00176435","00086652","00097349","00085315","00077236","00060105","00166188","00105347","00180464"]}'
 parameters: []
 headers:
   - name: Content-Type

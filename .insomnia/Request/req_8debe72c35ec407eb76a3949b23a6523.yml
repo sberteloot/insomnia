@@ -1,0 +1,31 @@
+_id: req_8debe72c35ec407eb76a3949b23a6523
+type: Request
+parentId: fld_5ca146a8b625458587f2e643fcccab1c
+modified: 1700233565346
+created: 1700233482170
+url: http://osiris:8180/TI_EAR-TI_WS/ServicioPlanificacionBeanWS?WSDL
+name: Agendas del dia
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:bean="http://bean.webservice.session.ti.coto.com/"><soapenv:Header/><soapenv:Body><bean:getListadoCabecerasPorUsuario><desde>2023-10-18</desde><hasta>2023-11-17</hasta><idUsuario>0</idUsuario><idTipoToma>-1</idTipoToma><idEstado>-1</idEstado><idEmpresa>1</idEmpresa><sucursales>6,7,13,18,20,24,26,35,37,39,40,53,88,116,121,125,155,162,174,175</sucursales><buscarConErrores>true</buscarConErrores><TomasDeHoy>true</TomasDeHoy></bean:getListadoCabecerasPorUsuario></soapenv:Body></soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/soap+xml
+    id: pair_76e273b03acf4017a38f76b27ab83934
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_a50388f667a54f748098e670cd2c367e
+authentication: {}
+metaSortKey: -1700233482170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

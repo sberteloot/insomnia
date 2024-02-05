@@ -1,0 +1,23 @@
+_id: req_eacba5f85e854f39afdec2d79af585d5
+type: Request
+parentId: fld_9288d711bc474a08949ab39562a5eb9c
+modified: 1706881122853
+created: 1700583284190
+url: http://slnxdock02/apigw/v1/ms-gestor-autorizaciones/gestor-autorizaciones/empleado/retornarAutorizante/720843
+name: Retorna Autorizante
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1700583284190
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

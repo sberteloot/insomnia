@@ -1,0 +1,31 @@
+_id: req_065514366f7c4bfab94ae6b99d411549
+type: Request
+parentId: fld_5ca146a8b625458587f2e643fcccab1c
+modified: 1707137541732
+created: 1706228982048
+url: http://osiris:8180/TI_EAR-TI_WS/ServicioUtilesBeanWS?WSDL
+name: getStringParameterById
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:bean="http://bean.webservice.session.ti.coto.com/"><soapenv:Header/><soapenv:Body><bean:getStringParameterById><Id>64</Id></bean:getStringParameterById></soapenv:Body></soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml;charset=UTF-8
+    id: pair_8a8746c09041480ca8c7536a5289ac22
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_7f8bb6ddb74d4b7aaa47a0e481517c89
+authentication: {}
+metaSortKey: -1700233482270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

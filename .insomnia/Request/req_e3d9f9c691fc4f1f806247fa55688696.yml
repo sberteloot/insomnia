@@ -1,0 +1,23 @@
+_id: req_e3d9f9c691fc4f1f806247fa55688696
+type: Request
+parentId: fld_5c5a1baa12164802a6ade58b6d3eda3b
+modified: 1707137512142
+created: 1707134471945
+url: http://slnxdock02/apigw/v1/ms-empleados/empleado/gerentes-sucursal?retornarACargo=true
+name: Gerentes Sucursal
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1672406887889
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

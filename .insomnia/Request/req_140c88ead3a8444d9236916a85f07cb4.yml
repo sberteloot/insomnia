@@ -1,0 +1,27 @@
+_id: req_140c88ead3a8444d9236916a85f07cb4
+type: Request
+parentId: fld_068d1faa94b24187ad73139875a2cbda
+modified: 1703162332937
+created: 1703162276391
+url: http://slnxkub01t.redcoto.com.ar/apigw/v1/ms-jira/jira/requerimientos-cartera
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"FechaHasta":"2023-12-21T03:00:00.000Z"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1703162276391
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

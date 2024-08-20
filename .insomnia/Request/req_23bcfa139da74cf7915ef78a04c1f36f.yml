@@ -1,9 +1,9 @@
 _id: req_23bcfa139da74cf7915ef78a04c1f36f
 type: Request
 parentId: fld_bae5573cb5c94cfc81a65d27e0b736d1
-modified: 1695663579222
+modified: 1715021746180
 created: 1673028302145
-url: http://localhost:56960/Service.svc/fnLoginPost
+url: http://desa3web17/UsuarioWs/Service.svc/fnLoginPost
 name: Login Post
 description: ""
 method: POST
@@ -12,7 +12,7 @@ body:
   text: |-
     {"EntUsuarioLogin":{
     	"id_sistema":"123",
-    	"password":"quemirasbobo",
+    	"password":"xxx",
     	"usuario":"sberteloot"
     	}
     }

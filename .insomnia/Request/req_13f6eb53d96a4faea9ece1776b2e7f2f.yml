@@ -1,12 +1,12 @@
 _id: req_13f6eb53d96a4faea9ece1776b2e7f2f
 type: Request
 parentId: fld_ccc15f520bce478d925becfc2478ac15
-modified: 1681311720002
+modified: 1717695952505
 created: 1680804576650
 url: https://redcoto.webhook.office.com/webhookb2/4e25c75c-834f-4313-874b-efe2cd9bec45@bac8253f-d16b-4add-ab33-f62a43fde7f7/IncomingWebhook/e4104ceb859948cca602393b7e410e61/fed80fa0-29aa-464d-b781-ef1251b4948c
 name: Enviar Tarjeta
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: >-2
